@@ -3,10 +3,10 @@ def count_substring(string, sub_string):
     counter =0
     sub_len = len(sub_string)
     for i in range(len(string)):
-      if (string.find(sub_string)!=-1):
-        index = string.find(sub_string)
-        counter +=1
-        string = string[((index+sub_len)-1):]
+      if (string.find(sub_string)!=-1): #if sub is found
+        index = string.find(sub_string) #get the index at which the sub is found
+        counter +=1 
+        string = string[((index+sub_len)-1):] #trim string at sub index
   return counter
 
 if __name__ == '__main__':
