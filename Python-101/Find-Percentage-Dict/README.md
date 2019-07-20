@@ -1,1 +1,1 @@
-![Find-Perc](Find-Perc.png)
+![Find-Perc](Find-Perc.PNG)
